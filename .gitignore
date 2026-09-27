@@ -1,0 +1,38 @@
+.DS_Store
+.vscode/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+uv.lock
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Runtime state / local databases
+*.sqlite
+*.sqlite3
+*.db
+system-4-orchestrator/data/hot_state.json
+system-4-orchestrator/data/scratchpad.md
+
+# Node / frontend dependencies
+node_modules/
+
+# Coverage and test reports
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
